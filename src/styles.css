@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+  --bg: #fff6ee;
+  --surface: #ffffff;
+  --primary: #b3261e;
+  --primary-dark: #8f1c16;
+  --accent: #f4d7c0;
+  --text: #3b2a21;
+  --muted: #6b5b4f;
+  --border: #ead9cc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #fff6ee 0%, #fffaf6 60%, #ffffff 100%);
+  color: var(--text);
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+h1, h2, h3, .display-4 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-narrow {
+  max-width: 980px;
+  margin: 0 auto;
+}
