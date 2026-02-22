@@ -24,10 +24,6 @@ import { CommonModule } from '@angular/common';
       <div class="content">
         <h5 class="title">{{ pizza!.name }}</h5>
 
-        <p class="description" *ngIf="showDescription">
-          {{ pizza!.description }}
-        </p>
-
         <div class="actions">
           <button
             class="icon-btn minus"
